@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+	<courseName>Vadim Ksenzov courses</courseName>
+	<coursesLength>3 months</coursesLength>
+	<skillsToLearn>
+		<skill>Baisc Theory</skill>
+		<skill>Client–server model</skill>
+		<skill>HTTP server request</skill>
+		<skill>HTTP response status code</skill>
+		<skill>HTTP request,response structure</skill>
+		<skill>JSON/XML and thier structure</skill>
+		<skill>API testing thru Postman (JS, autotest API)</skill>
+		<skill>View and read logs on a remote server</skill>
+		<skill>HTTP/WEB snifing with Charles/Fiddler</skill>
+		<skill>Browser web developer tools (Chrome,Firefox)</skill>
+		<skill>VPN explained</skill>
+		<skill>Mobiles testing</skill>
+		<skill>iOS/Andriod features, guidelines</skill>
+		<skill>iOS app build in Xcode</skill>
+		<skill>Android app build in Andriod Studio</skill>
+		<skill>ADB (Android Debug Bridge)</skill>
+		<skill>VPN proxy setting iOS/Android</skill>
+		<skill>Mobile snifing Charles/Fiddler in iOS/Andriod</skill>
+		<skill>Terminal linux</skill>
+		<skill>Bash scripting, automation basic server tasks</skill>
+		<skill>Remote server access</skill>
+		<skill>Sql basics</skill>
+		<skill>Postgres Database</skill>
+		<skill>Redis (REmote DIctionary Server)</skill>
+		<skill>Load testing in Jmeter</skill>
+		<skill>Scrum Methodology</skill>
+		<skill>Python basics</skill>
+	</skillsToLearn>
+</skills>
