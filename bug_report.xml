@@ -1,1 +1,19 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<BugReport>
+  <Id>1</Id>
+  <Summary>Typo in word сторона</Summary>
+  <Str>
+    <step>Open telegram</step>
+    <step>Sign in</step>
+    <step>Click Search</step>
+    <step>Enter 26_Channel_Qa</step>
+    <step>Click on 26_Channel_QA</step>
+    <step>On top right corner Click magnifier</step>
+    <step>Enter Git Homework1</step>
+    <step>Check number 13 in list</step>
+  </Str>
+  <ActualResult>Typo in word сторона</ActualResult>
+  <ExpectedResult>страна</ExpectedResult>
+  <Severity>Trivial</Severity>
+  <Priority>Low</Priority>
+</BugReport>
