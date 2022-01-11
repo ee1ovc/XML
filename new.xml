@@ -1,7 +1,8 @@
-	<info>
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
         <name>Ivan</name>
         <surname>Ovcharenko</surname>
         <age>33</age>
         <petCount>0</petCount>
         <wantedSalary>55000</wantedSalary>
-        </info>
+</info>
