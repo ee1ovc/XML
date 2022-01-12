@@ -36,6 +36,7 @@ press i
 vim preferences.xml
 press i
 
+<?xml version="1.0" encoding="UTF-8"?>
 <preference>
 	<favoriteMovie>Terminator 2</favoriteMovie>
 	<favoriteSeries>Cowboy Bebop Anime Series</favoriteSeries>
