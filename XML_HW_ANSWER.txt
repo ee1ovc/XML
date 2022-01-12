@@ -15,6 +15,8 @@ git push
 7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество   домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
 vim new.xml
 press i
+
+<?xml version="1.0" encoding="UTF-8"?>
 <info>
 <name>Ivan</name>
 <surname>Ovcharenko</surname>
@@ -22,17 +24,104 @@ press i
 <petCount>0</petCount>
 <wantedSalary>55000</wantedSalary>
 </info>
+ press ESC
+ :wq
 8. Отправить изменения на внешний репозиторий.
  git add new.xml
  git commit -m "age,full name,pet count, wanted salary" 
  git push
 9. Создать файл preferences.xml
+> preferences.xml
 10. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
-оздать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
-11. Сделать коммит в одну строку.
-12. Отправить сразу 2 файла на внешний репозиторий.
-13. На веб интерфейсе создать файл bug_report.xml.
-14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-15. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+vim preferences.xml
+press i
+
+<preference>
+	<favoriteMovie>Terminator 2</favoriteMovie>
+	<favoriteSeries>Cowboy Bebop Anime Series</favoriteSeries>
+	<favoriteFood>Chicken Pasta</favoriteFood>
+	<favoriteSeason>Summer</favoriteSeason>
+	<countryToVisit>Japan</countryToVisit>
+</preference>
+press ESC
+:wq
+
+11. Создать файл sklls.xml 
+> skills.xml
+12. В файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+vim skills.txt
+press i
+
+<?xml version="1.0" encoding="UTF-8"?>
+<skills>
+	<courseName>Vadim Ksenzov courses</courseName>
+	<coursesLength>3 months</coursesLength>
+	<skillsToLearn>
+	<skill>Baisc Theory</skill>
+	<skill>Client–server model</skill>
+	<skill>HTTP server request</skill>
+	<skill>HTTP response status code</skill>
+	<skill>HTTP request,response structure</skill>
+	<skill>JSON/XML and thier structure</skill>
+	<skill>API testing thru Postman (JS, autotest API)</skill>
+	<skill>View and read logs on a remote server</skill>
+	<skill>HTTP/WEB snifing with Charles/Fiddler</skill>
+	<skill>Browser web developer tools (Chrome,Firefox)</skill>
+	<skill>VPN explained</skill>
+	<skill>Mobiles testing</skill>
+	<skill>iOS/Andriod features, guidelines</skill>
+	<skill>iOS app build in Xcode</skill>
+	<skill>Android app build in Andriod Studio</skill>
+	<skill>ADB (Android Debug Bridge)</skill>
+	<skill>VPN proxy setting iOS/Android</skill>
+	<skill>Mobile snifing Charles/Fiddler in iOS/Andriod</skill>
+	<skill>Terminal linux</skill>
+	<skill>Bash scripting, automation basic server tasks</skill>
+	<skill>Remote server access</skill>
+	<skill>Sql basics</skill>
+	<skill>Postgres Database</skill>
+	<skill>Redis (REmote DIctionary Server)</skill>
+	<skill>Load testing in Jmeter</skill>
+	<skill>Scrum Methodology</skill>
+	<skill>Python basics</skill>
+	</skillsToLearn>
+</skills>
+
+ press ESC
+ :wq
+13. Сделать коммит в одну строку. 
+git commit -am "2 files edit"
+14. Отправить сразу 2 файла на внешний репозиторий.
+git push
+15. На веб интерфейсе создать файл bug_report.xml.
+https://github.com/ > Sign in > Click ee1ovc/XML Repositorie > Click Add file > Create New fille > Click "Name your file ..." tab > Enter "bug_report.xml"
 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-17. Синхронизировать внешний и локальный репозиторий XML
+Enter Commit > Click "Commit changes"
+17. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+https://github.com/ > Sign in > Click ee1ovc/XML Repositorie > Click on "bug_report.xml" file> Click on pencil icon "Edit this File"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<BugReport>
+  <Id>1</Id>
+  <Summary>Typo in word сторона</Summary>
+  <Str>
+    <step>Open telegram</step>
+    <step>Sign in</step>
+    <step>Click Search</step>
+    <step>Enter 26_Channel_Qa</step>
+    <step>Click on 26_Channel_QA</step>
+    <step>On top right corner Click magnifier</step>
+    <step>Enter Git Homework1</step>
+    <step>Check number 13 in list</step>
+  </Str>
+  <ActualResult>Typo in word сторона</ActualResult>
+  <ExpectedResult>страна</ExpectedResult>
+  <Severity>Trivial</Severity>
+  <Priority>Low</Priority>
+</BugReport>
+
+18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Enter Commit > Click "Commit changes"
+19. Синхронизировать внешний и локальный репозиторий XML
+git fetch
+git pull
