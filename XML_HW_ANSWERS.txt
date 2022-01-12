@@ -123,5 +123,7 @@ https://github.com/ > Sign in > Click ee1ovc/XML Repositorie > Click on "bug_rep
 18. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 Enter Commit > Click "Commit changes"
 19. Синхронизировать внешний и локальный репозиторий XML
-git fetch
+git fetch 
+git merge
+или
 git pull
