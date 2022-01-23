@@ -58,7 +58,7 @@ press i
 	<courseName>Vadim Ksenzov courses</courseName>
 	<coursesLength>3 months</coursesLength>
 	<skillsToLearn>
-	<skill>Baisc Theory</skill>
+	<skill>Basic Theory</skill>
 	<skill>Client–server model</skill>
 	<skill>HTTP server request</skill>
 	<skill>HTTP response status code</skill>
